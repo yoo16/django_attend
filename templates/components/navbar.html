@@ -1,0 +1,20 @@
+<!-- <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="{% url 'attend-index' %}">Attend</a></li>
+    <li><a href="{% url 'attend-list' %}">Attend List</a></li>
+</ul> -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">ATTEND</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="{% url 'attend-index' %}">Top</a>
+                <a class="nav-link" href="{% url 'attend-list' %}">List</a>
+            </div>
+        </div>
+    </div>
+</nav>
